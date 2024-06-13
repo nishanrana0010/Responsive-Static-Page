@@ -173,7 +173,7 @@ margin-left: 32%;
 .section-2 .head {
   width: 100%;
   font-weight: 700;
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
@@ -186,7 +186,7 @@ margin-left: 32%;
 }
 
 .map-section {
-  margin-left: 5rem;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -195,12 +195,11 @@ margin-left: 32%;
   .map {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 }
 
-.map-section img {
-  width: 80%;
-}
+
 
 .lower-section {
   display: flex;
@@ -220,7 +219,7 @@ margin-left: 32%;
   gap: 1.3rem;
   border-radius: 12px;
   margin: 0.5rem;
-  height: 50vh;
+  height: 55vh;
   padding: 1.3rem;
   width: 30%;
   min-width: 15rem;
@@ -334,6 +333,7 @@ textarea {
 .checkbox {
   display: flex;
   align-items: center;
+
 }
 .checkbox-submit {
   width: 100%;
