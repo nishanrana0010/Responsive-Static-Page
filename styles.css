@@ -468,7 +468,7 @@ footer .footer-bottom {
   footer .footer-top .footer-main {
     flex-direction: column;
     align-items: center;
-    padding: 0;
+    padding-top: 2rem;
   }
 
   footer .footer-top .footer-main ul {
