@@ -56,7 +56,7 @@ font-size: 1.25rem;
 .nav-item a {
   text-decoration: none;
   color: rgb(165, 165, 165);
-  font-weight: bold;
+  font-weight: 555;
 }
 
 .dropdown-menu {
@@ -123,7 +123,7 @@ font-size: 1.25rem;
   .cta {
     display: none;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     text-align: center;
     justify-content: center;
   }
@@ -154,6 +154,11 @@ font-size: 1.25rem;
     box-shadow: none;
     padding: 0;
   }
+.cta {
+width: auto;
+margin-left: 32%;
+}
+
 }
 
 .section-2 {
@@ -168,7 +173,7 @@ font-size: 1.25rem;
 .section-2 .head {
   width: 100%;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 1rem;
 }
 
