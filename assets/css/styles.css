@@ -48,7 +48,7 @@ body {
 }
 
 .nav-item {
-font-size: 1.25rem;
+  font-size: 1.05rem;
   margin: 0 1rem;
   position: relative;
 }
@@ -89,7 +89,7 @@ font-size: 1.25rem;
   background-color: #007bff;
   color: white;
   border: none;
-  padding: 1rem 0rem;
+  padding: 0.8rem 0rem;
   cursor: pointer;
   border-radius: 4px;
   font-weight: bold;
@@ -154,11 +154,10 @@ font-size: 1.25rem;
     box-shadow: none;
     padding: 0;
   }
-.cta {
-width: auto;
-margin-left: 32%;
-}
-
+  .cta {
+    width: auto;
+    margin-left: 32%;
+  }
 }
 
 .section-2 {
@@ -186,7 +185,6 @@ margin-left: 32%;
 }
 
 .map-section {
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -198,8 +196,6 @@ margin-left: 32%;
     justify-content: center;
   }
 }
-
-
 
 .lower-section {
   display: flex;
@@ -219,7 +215,7 @@ margin-left: 32%;
   gap: 1.3rem;
   border-radius: 12px;
   margin: 0.5rem;
-  height: 22rem;
+  height: 20%;
   padding: 1.3rem;
   width: 30%;
   min-width: 15rem;
@@ -243,7 +239,7 @@ margin-left: 32%;
 .lower-section .lower-sub {
   font-weight: 500;
   font-size: 1.2rem;
-line-height: 1.9rem;
+  line-height: 1.9rem;
   color: #858a8f;
 }
 
@@ -275,8 +271,8 @@ line-height: 1.9rem;
   display: flex;
   flex-direction: column;
   padding: 2rem;
-padding-top: 8rem;
-padding-bottom: 6rem;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
   width: 50vw;
 }
 
@@ -292,7 +288,7 @@ padding-bottom: 6rem;
   text-align: center;
   width: 100%;
   color: #666;
-line-height: 2rem;
+  line-height: 2rem;
 }
 
 .input-group {
@@ -334,7 +330,6 @@ textarea {
 .checkbox {
   display: flex;
   align-items: center;
-
 }
 .checkbox-submit {
   width: 100%;
@@ -356,8 +351,8 @@ footer {
   background: #fff;
   color: #858a8f;
   padding-top: 4rem;
-padding-left: 6rem;
-padding-bottom: 1.2rem;
+  padding-left: 6rem;
+  padding-bottom: 1.2rem;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -411,7 +406,6 @@ footer .footer-top .footer-main {
   flex-direction: row;
   flex-grow: 1;
   justify-content: space-between;
-  
 }
 
 footer .footer-top .footer-main h3 {
@@ -485,5 +479,9 @@ footer .footer-bottom {
 
   footer .footer-top .footer-main ul {
     align-items: center;
+  }
+  .checkbox-submit {
+    display: flex;
+    flex-direction: column;
   }
 }
