@@ -45,15 +45,18 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
+padding-left: 1.5rem;
 }
 
 .nav-item {
+
   font-size: 1.05rem;
   margin: 0 1rem;
   position: relative;
 }
 
 .nav-item a {
+
   text-decoration: none;
   color: rgb(165, 165, 165);
   font-weight: 555;
@@ -119,6 +122,7 @@ body {
 
 /* Responsive styles */
 @media (max-width: 768px) {
+
   .nav-links,
   .cta {
     display: none;
@@ -143,6 +147,7 @@ body {
   .nav-links.active,
   .cta.active {
     display: flex;
+    padding-left: 3%;
   }
 
   .nav-item {
@@ -202,8 +207,8 @@ body {
   align-items: center;
   justify-content: space-evenly;
   background-color: #f5f6fa;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 2.8rem;
+  padding-right: 2.5rem;
   flex-wrap: wrap;
   padding-top: 8rem;
 }
@@ -271,6 +276,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 2rem;
+
   padding-top: 8rem;
   padding-bottom: 6rem;
   width: 50vw;
@@ -424,14 +430,19 @@ footer .footer-top .footer-main ul {
 footer .footer-top .footer-main a {
   text-decoration: none;
   color: #868686;
+font-size: 1.2rem;
 }
 
 footer .footer-bottom {
+width: 100%;
   text-align: start;
   margin-top: 4rem;
+/* padding-right: 15%; */
+/* text-align: center; */
 }
 
 @media (max-width: 800px) {
+
   .navbar {
     flex-direction: column;
   }
@@ -474,7 +485,7 @@ footer .footer-bottom {
   footer .footer-top .footer-main {
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
 
   footer .footer-top .footer-main ul {
@@ -483,5 +494,55 @@ footer .footer-bottom {
   .checkbox-submit {
     display: flex;
     flex-direction: column;
+  } 
+
+ .nav-links,
+  .cta {
+    display: none;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
   }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hamburger {
+    display: flex;
+    padding-left: 65%;
+    position: absolute;
+    padding-top: 2%;
+  }
+
+  .nav-links.active,
+  .cta.active {
+    display: flex;
+    padding-left: 3%;
+  }
+
+  .nav-item {
+    margin: 1rem 0;
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    padding: 0;
+  }
+  .cta {
+    width: auto;
+    margin-left: 32%;
+  }
+
+footer .footer-bottom {
+width: 100%;
+  text-align: start;
+  margin-top: 4rem;
+padding-right: 10%;
+text-align: center;
 }
+}
+
