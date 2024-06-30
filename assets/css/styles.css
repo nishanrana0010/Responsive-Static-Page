@@ -551,13 +551,14 @@ text-align: center;
 
 
 
-@media(max-width: 400px)
+@media(max-width: 450px)
 {
   .hamburger {
     display: flex;
-    padding-left: 60%;
+    padding-left: 65%;
     position: absolute;
     padding-top: 2%;
+
   }
 
 }
